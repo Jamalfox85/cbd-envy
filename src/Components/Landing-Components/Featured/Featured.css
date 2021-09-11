@@ -1,0 +1,100 @@
+.featured-wrapper {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #eaecf0;
+}
+
+.featured-wrapper .featured-bottle {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.featured-wrapper .featured-bottle .featured-bottle-img {
+  height: 20em;
+  width: 16em;
+  position: absolute;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+  background-color: black;
+}
+
+.featured-wrapper .featured-bottle .featured-bottle-blob {
+  height: 20em;
+  width: 20em;
+  background-color: white;
+}
+
+.featured-wrapper .featured-bottle .featured-bottle-ring {
+  height: 25em;
+  width: 25em;
+  border-radius: 50%;
+  border: solid 1px #eaecf0;
+  position: absolute;
+}
+
+.featured-wrapper .featured-details {
+  height: 75%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 5em;
+}
+
+.featured-wrapper .featured-details h6 {
+  font-size: 24px;
+}
+
+.featured-wrapper .featured-details ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.featured-wrapper .featured-details ul li {
+  width: 15em;
+  margin: 2.5em;
+}
+
+.featured-wrapper .featured-details button {
+  width: 125px;
+  height: 50px;
+  background-color: #452007;
+  color: #eaecf0;
+  font-size: 16px;
+  border-radius: 25px;
+  border: solid 1px #eaecf0;
+  -webkit-box-shadow: 3px 3px 5px #888;
+          box-shadow: 3px 3px 5px #888;
+}
+/*# sourceMappingURL=Featured.css.map */

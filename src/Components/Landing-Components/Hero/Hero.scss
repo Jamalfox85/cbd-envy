@@ -1,0 +1,37 @@
+.hero-wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 5em;
+  .hero-text {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    top: 25vh;
+    h3 {
+      font-size: 64px;
+    }
+    p {
+      width: 50%;
+      font-size: 24px;
+      margin-top: 2em;
+    }
+  }
+  button {
+    width: 125px;
+    height: 50px;
+    position: absolute;
+    bottom: 10vh;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #452007;
+    color: #eaecf0;
+    font-size: 16px;
+    border-radius: 25px;
+    border: solid 1px #eaecf0;
+    box-shadow: 3px 3px 5px #888;
+  }
+}

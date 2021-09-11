@@ -1,0 +1,64 @@
+.featured-wrapper {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: #eaecf0;
+  .featured-bottle {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .featured-bottle-img {
+      height: 20em;
+      width: 16em;
+      position: absolute;
+      transform: rotate(15deg);
+      background-color: black;
+    }
+    .featured-bottle-blob {
+      height: 20em;
+      width: 20em;
+      background-color: white;
+    }
+    .featured-bottle-ring {
+      height: 25em;
+      width: 25em;
+      border-radius: 50%;
+      border: solid 1px #eaecf0;
+      position: absolute;
+    }
+  }
+  .featured-details {
+    height: 75%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 5em;
+    h6 {
+      font-size: 24px;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      li {
+        width: 15em;
+        margin: 2.5em;
+      }
+    }
+    button {
+      width: 125px;
+      height: 50px;
+      background-color: #452007;
+      color: #eaecf0;
+      font-size: 16px;
+      border-radius: 25px;
+      border: solid 1px #eaecf0;
+      box-shadow: 3px 3px 5px #888;
+    }
+  }
+}
