@@ -1,11 +1,11 @@
 import React from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./NavBar.css";
 
 const NavBar = () => {
   return (
     <div className="navbar-wrapper">
-      <p>CBD ENVY</p>
+      <h2>CBD ENVY</h2>
       <ul>
         <li>
           <Link to="/">

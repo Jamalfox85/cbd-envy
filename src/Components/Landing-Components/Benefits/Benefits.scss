@@ -3,7 +3,6 @@
   width: 100%;
   padding: 0 5em;
   position: relative;
-  border: solid 1px green;
   background-color: #eaecf0;
   .benefit-group-wrapper {
     height: 100%;
@@ -22,7 +21,16 @@
         height: 100px;
         width: 100px;
         border-radius: 50%;
-        background-color: #c4c4c4;
+        background-color: #5a7d57;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i {
+          position: absolute;
+          font-size: 64px;
+          color: #eaecf0;
+        }
       }
       .benefit-group-text {
         text-align: center;

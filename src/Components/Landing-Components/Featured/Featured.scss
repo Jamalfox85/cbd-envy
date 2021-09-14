@@ -5,23 +5,43 @@
   display: flex;
   align-items: center;
   color: #eaecf0;
+  background-image: url("../../../assets/featured-bg.jpg");
+  /* Img Src crystalweed-cannabis-papBPuF484I-unsplash*/
+  background-size: cover;
+  background-position: 0 0;
+  position: relative;
+  .featured-bg-overlay {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(17, 17, 17, 0.7);
+    position: absolute;
+  }
   .featured-bottle {
     height: 100%;
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 2;
     .featured-bottle-img {
       height: 20em;
       width: 16em;
       position: absolute;
-      transform: rotate(15deg);
-      background-color: black;
+      transform: rotate(15deg) translateY(1em);
+      background-image: url("../../../assets/tincture-img.png");
+      /*Img Src kisspng-tincture-of-cannabis-bottle-propolis-herb-5b072fcf438db9.7342376515271976472767*/
+      background-size: cover;
+      background-position: center center;
+      z-index: 3;
     }
     .featured-bottle-blob {
-      height: 20em;
-      width: 20em;
-      background-color: white;
+      height: 25em;
+      width: 25em;
+      background-image: url("../../../assets/blob\ \(1\).svg");
+      background-size: cover;
+      background-position: center center;
+      transform: rotate(40deg) translateY(-1em);
     }
     .featured-bottle-ring {
       height: 25em;
@@ -38,6 +58,8 @@
     flex-direction: column;
     justify-content: space-between;
     padding-left: 5em;
+    position: relative;
+    z-index: 2;
     h6 {
       font-size: 24px;
     }
@@ -45,20 +67,30 @@
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
+      list-style: none;
       li {
         width: 15em;
         margin: 2.5em;
+        color: #eaecf0;
+        i {
+          font-size: 32px;
+          color: #5a7d57;
+          // color: #eaecf0;
+          display: inline-block;
+          transform: translateX(-2em);
+        }
       }
     }
     button {
-      width: 125px;
-      height: 50px;
+      width: 130px;
+      height: 55px;
       background-color: #452007;
       color: #eaecf0;
-      font-size: 16px;
+      font-size: 24px;
       border-radius: 25px;
       border: solid 1px #eaecf0;
       box-shadow: 3px 3px 5px #888;
+      font-family: "Yellowtail", cursive;
     }
   }
 }

@@ -1,0 +1,45 @@
+.shop-now-wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../../assets/shopnow-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  .shopnow-bg-overlay {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(17, 17, 17, 0.5);
+  }
+  .shop-now-content {
+    height: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 2;
+    h1 {
+      font-size: 64px;
+      color: #eaecf0;
+    }
+    button {
+      width: 125px;
+      height: 50px;
+      position: absolute;
+      bottom: 5em;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #452007;
+      color: #eaecf0;
+      font-size: 16px;
+      border-radius: 25px;
+      border: solid 1px #eaecf0;
+      box-shadow: 3px 3px 5px #888;
+    }
+  }
+}

@@ -13,23 +13,42 @@
           align-items: center;
   padding: 0 5em;
   background-color: #eaecf0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Yellowtail", cursive;
+  z-index: 999;
 }
 
 .navbar-wrapper ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   list-style-type: none;
+  font-size: 18px;
+  margin-right: 3.5em;
 }
 
 .navbar-wrapper ul li {
-  margin: 0 1em;
+  margin: 0 1.5em;
+}
+
+.navbar-wrapper ul a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar-wrapper ul a:hover,
+.navbar-wrapper ul a:visited:hover {
+  color: #5a7d57;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 .navbar-wrapper ul button {
   width: 100px;
   height: 40px;
+  font-family: "Yellowtail", cursive;
   background-color: #5a7d57;
   color: #eaecf0;
   font-size: 16px;
@@ -37,5 +56,22 @@
   border: solid 1px #eaecf0;
   -webkit-box-shadow: 3px 3px 5px #c4c4c4;
           box-shadow: 3px 3px 5px #c4c4c4;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  margin-bottom: auto;
+  margin-top: auto;
+  right: 5em;
+}
+
+.navbar-wrapper ul button:hover {
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  color: #5a7d57;
+  background-color: #eaecf0;
+  border: solid 1px #5a7d57;
+  cursor: pointer;
+  -webkit-box-shadow: 4px 4px 5px #5a7d57;
+          box-shadow: 4px 4px 5px #5a7d57;
 }
 /*# sourceMappingURL=NavBar.css.map */

@@ -13,12 +13,22 @@ const Featured = () => {
       <div className="featured-details">
         <h6>Best For:</h6>
         <ul>
-          <li>This is one of the most important benefits of CBD</li>
-          <li>This is one of the most important benefits of CBD</li>
-          <li>This is one of the most important benefits of CBD</li>
+          <li>
+            <i class="fas fa-cannabis"></i>
+            This is one of the most important benefits of CBD
+          </li>
+          <li>
+            <i class="fas fa-cannabis"></i>This is one of the most important
+            benefits of CBD
+          </li>
+          <li>
+            <i class="fas fa-cannabis"></i>This is one of the most important
+            benefits of CBD
+          </li>
         </ul>
         <button>View Item</button>
       </div>
+      <div className="featured-bg-overlay"></div>
     </div>
   );
 };

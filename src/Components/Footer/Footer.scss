@@ -1,0 +1,84 @@
+.footer-wrapper {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  background-image: url("../../assets/footer-bg.jpg");
+  /*Img Src pexels-tara-winstead-6694132*/
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  color: #eaecf0;
+  .footer-bg-overlay {
+    height: inherit;
+    width: 100%;
+    background-color: rgba(17, 17, 17, 0.5);
+    position: absolute;
+  }
+  .footer-left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5em;
+    position: relative;
+    z-index: 2;
+    h3 {
+      font-size: 32px;
+      font-family: "Yellowtail", cursive;
+    }
+  }
+  .footer-right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: right;
+    padding: 5em;
+    position: relative;
+    z-index: 2;
+    .footer-links {
+      display: flex;
+      justify-content: space-evenly;
+      h3 {
+        font-size: 24px;
+        font-family: "Yellowtail", cursive;
+      }
+      ul {
+        list-style-type: none;
+      }
+    }
+    .footer-socials {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 15em;
+      margin-left: auto;
+      .social {
+        height: 25px;
+        width: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .footer-email {
+      height: 40px;
+      width: 75%;
+      border-radius: 25px;
+      background-color: rgba(234, 236, 240, 0.5);
+      margin-left: auto;
+      font-size: 24px;
+      font-family: "Yellowtail", cursive;
+      text-align: center;
+      outline: none;
+      color: #eaecf0;
+    }
+    .footer-email:focus {
+      background-color: #eaecf0;
+      color: #5a7d57;
+      transition: 0.3s ease-in-out;
+    }
+  }
+}

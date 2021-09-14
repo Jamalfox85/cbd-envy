@@ -7,14 +7,28 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0 5em;
+  background-image: url("../../../assets/hero-bg.jpg");
+  /*Image Src kimzy-nanney-b2haCjfk_cM-unsplash*/
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.hero-wrapper .hero-bg-overlay {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  background-color: rgba(17, 17, 17, 0.5);
 }
 
 .hero-wrapper .hero-text {
   height: 100%;
   width: 50%;
-  position: relative;
+  position: absolute;
   top: 25vh;
+  padding: 0 5em;
+  color: #eaecf0;
+  z-index: 2;
 }
 
 .hero-wrapper .hero-text h3 {
@@ -28,8 +42,8 @@
 }
 
 .hero-wrapper button {
-  width: 125px;
-  height: 50px;
+  width: 130px;
+  height: 55px;
   position: absolute;
   bottom: 10vh;
   left: 0;
@@ -38,10 +52,12 @@
   margin-right: auto;
   background-color: #452007;
   color: #eaecf0;
-  font-size: 16px;
+  font-size: 24px;
   border-radius: 25px;
   border: solid 1px #eaecf0;
   -webkit-box-shadow: 3px 3px 5px #888;
           box-shadow: 3px 3px 5px #888;
+  z-index: 2;
+  font-family: "Yellowtail", cursive;
 }
 /*# sourceMappingURL=Hero.css.map */

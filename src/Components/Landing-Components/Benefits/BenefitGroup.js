@@ -1,14 +1,11 @@
 import React from "react";
 
-function BenefitGroup() {
+function BenefitGroup(props) {
   return (
     <div className="benefit-group">
-      <div className="benefit-group-img"></div>
+      <div className="benefit-group-img">{props.icon}</div>
       <div className="benefit-group-text">
-        <p>
-          Enter some pretty okay subtext here. This is where we go just a little
-          more in depth;
-        </p>
+        <p>{props.text}</p>
       </div>
     </div>
   );

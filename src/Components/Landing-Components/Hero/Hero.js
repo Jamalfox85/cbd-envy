@@ -12,6 +12,7 @@ const Hero = () => {
         </p>
       </div>
       <button>Shop Now</button>
+      <div className="hero-bg-overlay"></div>
     </div>
   );
 };
