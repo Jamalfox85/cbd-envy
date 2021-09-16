@@ -6,6 +6,7 @@ import NavBar from "./Components/NavBar/NavBar";
 import Footer from "./Components/Footer/Footer";
 import "./Main.css";
 import Cart from "./Pages/Cart";
+import Shop from "./Pages/Shop";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           </Route>
           <Route path="/cart">
             <Cart />
+          </Route>
+          <Route path="/shop">
+            <Shop />
           </Route>
         </Switch>
         <Footer />

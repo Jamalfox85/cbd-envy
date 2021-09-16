@@ -1,0 +1,134 @@
+.sidenav-wrapper {
+  height: screen;
+  width: 25%;
+  position: relative;
+  background-color: #5a7d57;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .sidenav-contents {
+    width: 80%;
+    margin-top: 15vh;
+  }
+  .search-group {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    .icon {
+      height: 25px;
+      width: 25px;
+      border-radius: 50%;
+      margin-right: 0.25em;
+      background-color: #eaecf0;
+    }
+    input {
+      height: 25px;
+      width: 75%;
+      border-radius: 25px 0 0 25px;
+      background-color: #eaecf0;
+      margin-left: auto;
+      font-size: 16px;
+      font-family: "Yellowtail", cursive;
+      text-align: center;
+      outline: none;
+    }
+    input::placeholder {
+      color: rgba(69, 32, 7, 0.5);
+    }
+    button {
+      height: 25px;
+      width: 60px;
+      background-color: #452007;
+      border-radius: 0 25px 25px 0;
+      color: #eaecf0;
+    }
+  }
+  .filter-group {
+    margin-top: 5em;
+    color: #eaecf0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+      font-size: 24px;
+      align-self: flex-start;
+    }
+    .price-filter-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 1em 0;
+      h4 {
+        margin: 0.5em;
+      }
+      .price-range {
+        display: flex;
+        align-self: center;
+        input {
+          height: 2em;
+          width: 50px;
+          border-radius: 25px;
+          text-align: center;
+          outline: none;
+          color: #5a7d57;
+        }
+        input::placeholder {
+          color: rgba(69, 32, 7, 0.5);
+        }
+        p {
+          margin: 0 0.5em;
+        }
+      }
+    }
+    .category-filter-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 1em 0;
+      h4 {
+        margin: 0.5em;
+      }
+      .filters {
+        display: flex;
+        flex-direction: column;
+        .filter {
+          margin: 0.25em 0;
+          input {
+            margin: 0 0.5em;
+          }
+        }
+      }
+    }
+    .rating-filter-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 1em 0;
+      h4 {
+        margin: 0.5em;
+      }
+      .ratings {
+        .rating {
+          display: flex;
+          margin: 0.25em 0;
+          .stars {
+            display: flex;
+            .star {
+              height: 15px;
+              width: 15px;
+              background-color: #c4c4c4;
+              margin: 1px;
+            }
+            .checked {
+              background-color: #452007;
+            }
+          }
+          p {
+            margin: 0 0.5em;
+          }
+        }
+      }
+    }
+  }
+}
