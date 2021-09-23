@@ -4,5 +4,8 @@
   position: relative;
   background-color: cyan;
   margin-left: auto;
+  background-image: url("../../../assets/shop-right-panel.jpg");
+  background-size: cover;
+  background-position: center;
 }
 /*# sourceMappingURL=RightPanel.css.map */

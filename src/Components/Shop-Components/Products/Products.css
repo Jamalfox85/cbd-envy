@@ -21,15 +21,16 @@
 .products-wrapper .products-list {
   height: auto;
   width: 100%;
-  margin: 5em 0;
+  margin: 5em 0 0 20%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
 }
 
 .products-wrapper .products-list .product-item {
@@ -74,6 +75,7 @@
   height: 10%;
   margin: 1em;
   color: #5a7d57;
+  font-family: "Yellowtail", cursive;
 }
 
 .products-wrapper .products-list .product-item .product-details {
@@ -109,6 +111,7 @@
           justify-content: space-evenly;
   font-size: 24px;
   margin: 0.25em;
+  font-family: "Yellowtail", cursive;
 }
 
 .products-wrapper .products-list .product-item .product-details .qty-group .minus-btn,
