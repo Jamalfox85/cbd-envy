@@ -1,0 +1,61 @@
+.confirmation-wrapper {
+  background-image: url("../../../assets/cart-bg.jpg");
+  background-size: cover;
+  text-align: center;
+  color: #eaecf0;
+  position: relative;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.confirmation-wrapper .confirmation-header {
+  position: relative;
+  top: 20vh;
+  z-index: 2;
+  margin-bottom: 2em;
+  font-family: "Yellowtail", cursive;
+}
+
+.confirmation-wrapper p {
+  position: absolute;
+  text-align: center;
+  top: 40vh;
+  width: 50%;
+  color: #eaecf0;
+  z-index: 2;
+}
+
+.confirmation-wrapper button {
+  width: 130px;
+  height: 55px;
+  background-color: #452007;
+  color: #eaecf0;
+  font-size: 24px;
+  border-radius: 25px;
+  border: solid 1px #eaecf0;
+  -webkit-box-shadow: 3px 3px 5px #888;
+          box-shadow: 3px 3px 5px #888;
+  font-family: "Yellowtail", cursive;
+  position: relative;
+  z-index: 2;
+  top: 50vh;
+}
+
+.confirmation-wrapper .confirmation-overlay {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/*# sourceMappingURL=Confirmation.css.map */

@@ -7,6 +7,7 @@ import Footer from "./Components/Footer/Footer";
 import "./Main.css";
 import Cart from "./Pages/Cart";
 import Shop from "./Pages/Shop";
+import Confirmation from "./Pages/Confirmation";
 
 function App() {
   return (
@@ -17,11 +18,14 @@ function App() {
           <Route exact path="/">
             <Landing />
           </Route>
+          <Route path="/shop">
+            <Shop />
+          </Route>
           <Route path="/cart">
             <Cart />
           </Route>
-          <Route path="/shop">
-            <Shop />
+          <Route path="/confirmation">
+            <Confirmation />
           </Route>
         </Switch>
         <Footer />
