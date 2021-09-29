@@ -45,16 +45,16 @@ const Footer = () => {
         </div>
         <div className="footer-socials">
           <div className="social">
-            <i class="fab fa-twitter"></i>
+            <i className="fab fa-twitter"></i>
           </div>
           <div className="social">
-            <i class="fab fa-facebook"></i>
+            <i className="fab fa-facebook"></i>
           </div>
           <div className="social">
-            <i class="fab fa-instagram"></i>
+            <i className="fab fa-instagram"></i>
           </div>
           <div className="social">
-            <i class="fas fa-envelope"></i>
+            <i className="fas fa-envelope"></i>
           </div>
         </div>
         <input className="footer-email" type="email" />

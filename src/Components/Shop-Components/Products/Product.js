@@ -1,6 +1,10 @@
 import React from "react";
 
 const Product = (props) => {
+  // const  decrement = (props) = {
+  //   props.quantity = props.quantity.increment()
+  // }
+
   return (
     <div className="product-item">
       <div className="product-image">
@@ -13,9 +17,13 @@ const Product = (props) => {
           <small>USD</small>
         </h3>
         <div className="qty-group">
-          <div className="minus-btn">-</div>
+          <div className="minus-btn" onClick={""}>
+            -
+          </div>
           <div className="qty">{props.quantity}</div>
-          <div className="plus-btn">+</div>
+          <div className="plus-btn" onClick={""}>
+            +
+          </div>
         </div>
       </div>
     </div>
